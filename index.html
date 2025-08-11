@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brigadeiro Gourmet da Val</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #c2185b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+        }
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        main p {
+            font-size: 18px;
+            color: #555;
+        }
+        img {
+            width: 250px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .redes a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #e91e63;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.produto {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    width: 220px;
+    height: 350px; /* todos os cards com mesma altura */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.produto img {
+    width: 100%;
+    height: 150px; /* todas as imagens com a mesma altura */
+    object-fit: cover; /* corta proporcionalmente sem distorcer */
+    border-radius: 8px;
+}
+
+.produto h3 {
+    margin: 10px 0 5px;
+}
+
+.produto p {
+    font-size: 14px;
+    color: #444;
+    flex-grow: 1; /* ocupa o espaço para empurrar o botão para baixo */
+}
+
+.btn-pedido {
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-pedido:hover {
+    background-color: #3e8e41;
+}
+        footer {
+            background: #c2185b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="logomarca brigadeiro.jpeg" alt="Logo Brigadeiro Gourmet da Val" class="logo">
+            <h1>Brigadeiro Gourmet da Val</h1>
+        </div>
+    </header>
+    
+    <main>
+        <h2>Venha se encantar <strong>com as delícias do Brigadeiro Gourmet da Val</strong></h2>
+        <p>Olá! Sou Valmira e quero que você tenha uma experiência única saboreando os melhores doces do Recife!</p>
+    </main>
+    
+    
+
+        <div class="redes">
+            <a href="https://instagram.com/brigadeirogourmetdaval" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100063686465239" target="_blank">Facebook</a>
+        </div>
+
+        <h2>Escolha um dos nossos doces</h2>
+        <div class="produtos">
+            <div class="produto">
+                <img src="brigadeiro.png" alt="Brigadeiro Gourmet">
+                <h3>Brigadeiro Gourmet</h3>
+                <p>Feito com chocolate belga e leite condensado premium.</p>
+                <a class="btn-pedido" href="https://wa.me/5581985394966?text=Olá%20Val,%20quero%20pedir%20Brigadeiro%20Gourmet">Pedir agora</a>
+            </div>
+            <div class="produto">
+                <img src="Copo da Felicidade (2).jpeg" alt="Copo da Felicidade">
+                <h3>Copo da Felicidade</h3>
+                <p>Chocolate, pedaços de Brownie, recheio de ninho e chantelly.</p>
+                <a class="btn-pedido" href="https://wa.me/5581985394966?text=Olá%20Val,%20quero%20pedir%Copo da Felicidade">Pedir agora</a>
+            </div>
+            <div class="produto">
+                <img src="Cocada.jpeg" alt="Cocada Cremosa">
+                <h3>Cocada Cremosa</h3>
+                <p>Receita especial com coco fresco e leite condensado.</p>
+                <a class="btn-pedido" href="https://wa.me/5581985394966?text=Olá%20Val,%20quero%20pedir%20Cocada%20Cremosa">Pedir agora</a>
+            </div>
+            <div class="produto">
+                <img src="Mini Bolo Vulcao.jpeg" alt="Mini Bolo Vulcão">
+                <h3>Mini Bolo Vulcão</h3>
+                <p>Receita especial de bolo de chocolate com recheio de chocolate.</p>
+                <a class="btn-pedido" href="https://wa.me/5581985394966?text=Olá%20Val,%20quero%20pedir%20Mini%20Bolo">Pedir agora</a>
+            </div>
+            <div class="produto">
+                <img src="Bolo de Cenoura.jpg" alt="Bolo de Cenoura">
+                <h3>Bolo de Cenoura</h3>
+                <p>Receita especial de bolo de Cenoura com chocolate.</p>
+                <a class="btn-pedido" href="https://wa.me/5581985394966?text=Olá%20Val,%20quero%20pedir%20Bolo%20%de Cenoura">Pedir agora</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Brigadeiro Gourmet da Val - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
