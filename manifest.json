@@ -1,0 +1,16 @@
+{
+  "name": "Site Brigadeiro Gourmet",
+  "short_name": "Brigadeiro Gourmet",
+  "description": "Site de brigadeiro gourmet",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "https://maelsonmorais.github.io/sitebrigadeirogourmetdaval/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
